@@ -1,0 +1,6 @@
+autotest/StepDefinitions.class
+autotest/TestRunner.class
+pages/AccountSummaryPage.class
+pages/GoogleSearchPage.class
+pages/GoogleResultsPage.class
+pages/VodafoneHomePage.class
