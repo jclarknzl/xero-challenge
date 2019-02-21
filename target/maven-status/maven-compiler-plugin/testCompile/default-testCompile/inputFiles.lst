@@ -1,6 +1,6 @@
 /Users/jamie/Documents/xero-challenge/src/test/java/TestRunner.java
-/Users/jamie/Documents/xero-challenge/src/test/java/pages/MyVodafone/VodafoneHomePage.java
-/Users/jamie/Documents/xero-challenge/src/test/java/pages/GoogleSearchPage.java
-/Users/jamie/Documents/xero-challenge/src/test/java/steps/StepDefinitions.java
-/Users/jamie/Documents/xero-challenge/src/test/java/pages/GoogleResultsPage.java
-/Users/jamie/Documents/xero-challenge/src/test/java/pages/MyVodafone/AccountSummaryPage.java
+/Users/jamie/Documents/xero-challenge/src/test/java/pages/XeroAddBankAccountPage.java
+/Users/jamie/Documents/xero-challenge/src/test/java/steps/XeroSteps.java
+/Users/jamie/Documents/xero-challenge/src/test/java/pages/XeroLoginPage.java
+/Users/jamie/Documents/xero-challenge/src/test/java/utils/XeroUtils.java
+/Users/jamie/Documents/xero-challenge/src/test/java/pages/XeroDashboardPage.java
