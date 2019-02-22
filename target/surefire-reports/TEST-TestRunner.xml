@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="TestRunner" time="0.102" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="TestRunner" time="0.105" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib"/>
@@ -69,5 +69,5 @@
   <testcase classname="Scenario: A scenario" name="When I select to add a bank account to my organisation" time="0"/>
   <testcase classname="Scenario: A scenario" name="And I choose an &quot;ANZ (NZ)&quot; bank account" time="0"/>
   <testcase classname="Scenario: A scenario" name="Then the bank account should be added" time="0"/>
-  <testcase classname="Scenario: A scenario" name="Scenario: A scenario" time="0.1"/>
+  <testcase classname="Scenario: A scenario" name="Scenario: A scenario" time="0.103"/>
 </testsuite>

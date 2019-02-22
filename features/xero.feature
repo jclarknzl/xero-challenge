@@ -1,5 +1,4 @@
 
-@xero
 Feature: Xero technical challenge feature
     As a Xero User,
     In order to manage my business successfully,

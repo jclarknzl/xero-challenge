@@ -1,31 +1,30 @@
 package steps;
 
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.When;
-import cucumber.api.java.en.Then;
 import cucumber.api.java.After;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-import pages.*;
-
+import pages.XeroAddBankAccountPage;
+import pages.XeroDashboardPage;
+import pages.XeroLoginPage;
 
 public class XeroSteps {
 
     private WebDriver driver;
-    private String baseURL = "http://www.xero.com/";
 
-    // Randomised bank account number for testing purposes. This ensures the test can be run multiple times without running into issues.
-    //private String r = "" + ((int)(Math.random()*1000001));
-    private String ban = "01000100000" + ((int)(Math.random()*101)+1000);
+    /*
+    Randomised bank account name and number for testing purposes.
+    This ensures the test can be successfully run multiple times without running into duplicate issues.
+    */
+    private String ban = "01-0001-" + ((int)(Math.random()*100001)+1000000) + "-00";
     private String accountName = "Test Account " + (int)(Math.random()*1001);
 
 
     @Given("^I am on the Xero login page$")
     public void i_am_on_the_Xero_login_page(){
         if (driver == null) {
-            //driver = new FirefoxDriver();
             driver = new ChromeDriver();
         }
         driver.get("https://login.xero.com");
@@ -34,7 +33,7 @@ public class XeroSteps {
     @Given("^I log in to my account$")
     public void i_log_in_to_my_account(){
         XeroLoginPage xeroLoginPage = new XeroLoginPage(driver);
-        xeroLoginPage.enterUsername("bjokwfgd@grr.la");
+        xeroLoginPage.enterUsername("buwwsqgd@grr.la");
         xeroLoginPage.enterPassword("password1");
         xeroLoginPage.login();
     }

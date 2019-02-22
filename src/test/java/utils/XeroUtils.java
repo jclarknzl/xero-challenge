@@ -1,5 +1,10 @@
 package utils;
 
+/*
+ * Utility class to house various static methods referenced in multiple places to cut down on code bloat.
+ */
+
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
